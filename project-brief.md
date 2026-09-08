@@ -22,7 +22,7 @@ Understanding spatial gaps in municipal waste management can help local environm
 | Dataset | Source link | Format / extraction |
 |---|---|---|
 | Local Government Area boundaries | [GRID3 NGA Operational LGA Boundaries](https://data.grid3.org/datasets/GRID3::grid3-nga-operational-lga-boundaries/about) | Download the Nigeria LGA boundary layer and filter to Port Harcourt LGA; GeoPackage or GIS-compatible feature layer. |
-| Settlement extents / built-up areas | [GRID3 NGA Settlement Extents](https://data.grid3.org/search?q=settlement%20extents%20NGA) | Download the Nigeria settlement-extents layer and clip to Port Harcourt LGA; GeoPackage or GIS-compatible feature layer. |
+| Settlement extents / built-up areas | [GRID3 NGA Settlement Extents](https://data.grid3.org/datasets/GRID3::grid3-nga-settlement-extents-v4-1/about) | Download the Nigeria settlement-extents layer and clip to Port Harcourt LGA; GeoPackage or GIS-compatible feature layer. |
 | Road network | [OpenStreetMap](https://www.openstreetmap.org/) via [QuickOSM](https://docs.3liz.org/QuickOSM/) | Extract roads within Port Harcourt LGA using QuickOSM; GeoPackage layer. |
 | Waste collection / disposal points | [OpenStreetMap waste-disposal tag](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dwaste_disposal), [recycling tag](https://wiki.openstreetmap.org/wiki/Tag:amenity%3Drecycling), and [Overpass API](https://overpass-api.de/) | Extract mapped `amenity=waste_disposal`, `amenity=recycling`, and `amenity=waste_transfer_station` points within Port Harcourt LGA using QuickOSM or Overpass; GeoPackage layer. |
 
