@@ -8,7 +8,7 @@ Read the complete project brief here: [project-brief.md](project-brief.md).
 
 The extraction follows the QuickOSM workflow described in the brief. The same Overpass query logic can be run from QGIS QuickOSM using the following keys and values:
 
-- `highway=*` for road ways;
+- `highway=` for road ways;
 - `amenity=waste_disposal`;
 - `amenity=recycling`;
 - `amenity=waste_transfer_station`.
@@ -49,7 +49,7 @@ A nearest-distance layer was intentionally not generated because the in-LGA wast
 
 ## Planned next step
 
-Obtain a verified waste-facility dataset from the relevant Rivers State or Port Harcourt environmental authority, document its source and date, add it to the GeoPackage, and then calculate settlement-to-nearest-facility distances in a projected CRS. If no authoritative dataset is available, retain the documented zero-point limitation rather than treating missing OSM features as missing facilities.
+i would need to Obtain a verified waste-facility dataset from the relevant Rivers State or Port Harcourt environmental authority, document its source and date, add it to the GeoPackage, and then calculate settlement-to-nearest-facility distances in a projected CRS. If no authoritative dataset is available, retain the documented zero-point limitation rather than treating missing OSM features as missing facilities.
 
 ## Data sources
 
