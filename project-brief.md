@@ -2,9 +2,9 @@
 
 ## 1. The question
 
-**Which parts of Port Harcourt Local Government Area are furthest from a mapped formal waste-collection or waste-disposal point?**
+**Which parts of Port Harcourt Local Government Area are furthest from a mapped waste-related point?**
 
-The analysis will measure network or straight-line proximity from settlement areas to the nearest mapped waste point, then identify the most underserved settlement areas within Port Harcourt LGA.
+The analysis will measure network or straight-line proximity from settlement areas to the nearest mapped waste-related point, then identify the most underserved settlement areas within Port Harcourt LGA. It will not treat missing OpenStreetMap features as proof that no formal facility exists.
 
 ## 2. Why it matters
 
