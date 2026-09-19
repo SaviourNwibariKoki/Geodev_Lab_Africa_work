@@ -4,6 +4,8 @@ This repository contains a place-based GIS study of access to **mapped waste-rel
 
 Read the complete project brief here: [project-brief.md](project-brief.md).
 
+Read the Week 2 dataset description here: [data-note.md](data-note.md).
+
 ## Completed QGIS-style extraction
 
 The extraction follows the QuickOSM workflow described in the brief. The same Overpass query logic can be run from QGIS QuickOSM using the following keys and values:
@@ -23,7 +25,8 @@ The extraction was run on **8 September 2026** using the Port Harcourt bounding 
 |---|---:|
 | Port-Harcourt LGA boundary | 1 feature |
 | GRID3 settlement blocks after clipping | 130 features |
-| OpenStreetMap road features in the extraction area | 47,609 ways |
+| OpenStreetMap road features in the wider extraction area | 47,609 ways |
+| OpenStreetMap road features in the packaged LGA layer | 4,994 ways |
 | OSM waste-related features in the extraction area | 1 feature |
 | OSM waste-related features inside Port-Harcourt LGA | 0 features |
 | Nearest-waste distance layer | Not created because there were no in-LGA points |
@@ -44,6 +47,8 @@ The extracted and clipped layers are packaged in [port_harcourt_waste_accessibil
 - `settlements` — GRID3 settlement blocks clipped to the LGA;
 - `roads_osm` — OpenStreetMap road ways clipped to the LGA;
 - `waste_points_osm` — OSM waste-related points after clipping; empty in this run.
+
+The feature counts, fields, geometry types, source links, and data-quality observations are documented in the [Week 2 data note](data-note.md). The packaged road layer contains 4,994 features after clipping; 47,609 was the count before clipping in the wider extraction area.
 
 A nearest-distance layer was intentionally not generated because the in-LGA waste layer is empty.
 
