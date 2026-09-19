@@ -6,6 +6,8 @@ Read the complete project brief here: [project-brief.md](project-brief.md).
 
 Read the Week 2 dataset description here: [data-note.md](data-note.md).
 
+Read the Week 3 preparation and quality-check note here: [week3-data-preparation.md](week3-data-preparation.md).
+
 ## Completed QGIS-style extraction
 
 The extraction follows the QuickOSM workflow described in the brief. The same Overpass query logic can be run from QGIS QuickOSM using the following keys and values:
@@ -49,6 +51,8 @@ The extracted and clipped layers are packaged in [port_harcourt_waste_accessibil
 - `waste_points_osm` — OSM waste-related points after clipping; empty in this run.
 
 The feature counts, fields, geometry types, source links, and data-quality observations are documented in the [Week 2 data note](data-note.md). The packaged road layer contains 4,994 features after clipping; 47,609 was the count before clipping in the wider extraction area.
+
+The Week 3 analysis-ready output is [port_harcourt_waste_accessibility_analysis_ready.gpkg](port_harcourt_waste_accessibility_analysis_ready.gpkg). All four layers use **EPSG:32632 (WGS 84 / UTM zone 32N)**, and the settlement and road layers were clipped to the Port-Harcourt LGA boundary. The full five-check quality review is documented in [week3-data-preparation.md](week3-data-preparation.md).
 
 A nearest-distance layer was intentionally not generated because the in-LGA waste layer is empty.
 
