@@ -54,6 +54,10 @@ The feature counts, fields, geometry types, source links, and data-quality obser
 
 The Week 3 analysis-ready output is [port_harcourt_waste_accessibility_analysis_ready.gpkg](port_harcourt_waste_accessibility_analysis_ready.gpkg). All four layers use **EPSG:32632 (WGS 84 / UTM zone 32N)**, and the settlement and road layers were clipped to the Port-Harcourt LGA boundary. The full five-check quality review is documented in [week3-data-preparation.md](week3-data-preparation.md).
 
+## Week 4 analysis
+
+The Week 4 spatial operation created a 100-metre buffer around each of the 4,994 mapped road features. The result is [week4_roads_100m_buffer.gpkg](week4_roads_100m_buffer.gpkg), and the map is [week4_100m_road_access_buffer.png](week4_100m_road_access_buffer.png). The operation, expectations, four checks, findings, and remaining data needs are documented in [month-1-summary.md](month-1-summary.md).
+
 A nearest-distance layer was intentionally not generated because the in-LGA waste layer is empty.
 
 ## Planned next step
