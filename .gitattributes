@@ -1,0 +1,3 @@
+# Keep reproducibility scripts in the repository, but exclude them from GitHub's
+# language-percentage display so the submitted GIS outputs are easier to identify.
+*.py linguist-detectable=false
