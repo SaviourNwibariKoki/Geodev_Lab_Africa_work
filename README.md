@@ -84,4 +84,10 @@ OpenStreetMap coverage is community-maintained and may be incomplete. This proje
 
 ## Month 2: preparation of environment, and early python
 
--week 5: I setup python, Vs code and the terminal. hello.py runs
+## -week 5: I setup python, Vs code and the terminal. hello.py runs
+
+
+
+## -week 6 set up the project with uv and added pandas. 
+check.py prints the pandas version
+
