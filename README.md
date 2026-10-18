@@ -91,3 +91,5 @@ OpenStreetMap coverage is community-maintained and may be incomplete. This proje
 ## -week 6 set up the project with uv and added pandas. 
 check.py prints the pandas version
 
+## -week 7 analysed Ibadan wards with analyse.py
+Uploaded `wards.csv`, `analyse.py`, and [screenshots/week7.png](screenshots/week7.png). The program classifies each ward as `large` or `small` using a 10 km² threshold.
