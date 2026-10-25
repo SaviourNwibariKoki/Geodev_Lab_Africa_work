@@ -93,3 +93,6 @@ check.py prints the pandas version
 
 ## -week 7 analysed Ibadan wards with analyse.py
 Uploaded `wards.csv`, `analyse.py`, and [screenshots/week7.png](screenshots/week7.png). The program classifies each ward as `large` or `small` using a 10 km² threshold.
+
+## -week 8 inspected Port Harcourt settlement data
+Week 8: `inspect_data.py` summarises `block_area_sqm` and `building_count` in `port_harcourt_settlements.csv`, with the full run shown in [screenshots/week8.png](screenshots/week8.png).
