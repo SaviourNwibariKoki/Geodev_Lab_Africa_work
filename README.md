@@ -85,14 +85,22 @@ OpenStreetMap coverage is community-maintained and may be incomplete. This proje
 ## Month 2: preparation of environment, and early python
 
 ## -week 5: I setup python, Vs code and the terminal. hello.py runs
+Week 5: `hello.py` runs successfully, with the setup shown in [screenshots/week5.png](screenshots/week5.png).
 
 
 
 ## -week 6 set up the project with uv and added pandas. 
-check.py prints the pandas version
+Week 6: `pyproject.toml`, `uv.lock`, and `check.py` set up the project and print the pandas version, with the setup shown in [screenshots/week6.png](screenshots/week6.png).
 
 ## -week 7 analysed Ibadan wards with analyse.py
 Uploaded `wards.csv`, `analyse.py`, and [screenshots/week7.png](screenshots/week7.png). The program classifies each ward as `large` or `small` using a 10 km² threshold.
 
 ## -week 8 inspected Port Harcourt settlement data
 Week 8: `inspect_data.py` summarises `block_area_sqm` and `building_count` in `port_harcourt_settlements.csv`, with the full run shown in [screenshots/week8.png](screenshots/week8.png).
+
+## -week 9 consolidated the data summary
+Week 9: `summary.py` refactors the CSV reading and summary logic into three functions and summarises `block_area_sqm` and `building_count` from my real Port Harcourt settlement data. The full capstone run is shown in [screenshots/week9.png](screenshots/week9.png).
+
+## Month 2 reflection
+
+The idea that finally clicked for me this month was separating a task into small functions that each do one clear job, then combining them in a main workflow. I am still a little fuzzy about the details of Python environments and how `uv` manages packages behind the scenes. My capstone showed me that the Month 1 settlement dataset can be reused for meaningful summaries instead of being treated as a one-time GIS output. It also reminded me that the quality of any Python result depends on the quality, completeness, and meaning of the original GIS data.
