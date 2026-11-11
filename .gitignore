@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+*.zip
+*.tif
+*.tiff
+*.img
+*.jp2
+*.hdf
+*.h5

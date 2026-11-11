@@ -104,3 +104,8 @@ Week 9: `summary.py` refactors the CSV reading and summary logic into three func
 ## Month 2 reflection
 
 The idea that finally clicked for me this month was separating a task into small functions that each do one clear job, then combining them in a main workflow. I am still a little fuzzy about the details of Python environments and how `uv` manages packages behind the scenes. My capstone showed me that the Month 1 settlement dataset can be reused for meaningful summaries instead of being treated as a one-time GIS output. It also reminded me that the quality of any Python result depends on the quality, completeness, and meaning of the original GIS data.
+
+
+## Month 3: geospatial Python and automation
+
+- Week 10: GeoPandas. Loaded, checked, joined and mapped my Port Harcourt settlement layer in code. See the [Week 10 README](month-03/week-10/README.md).
