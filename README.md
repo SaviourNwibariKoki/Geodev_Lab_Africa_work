@@ -109,3 +109,4 @@ The idea that finally clicked for me this month was separating a task into small
 ## Month 3: geospatial Python and automation
 
 - Week 10: GeoPandas. Loaded, checked, joined and mapped my Port Harcourt settlement layer in code. See the [Week 10 README](month-03/week-10/README.md).
+- Week 11: CRS and spatial operations. Reprojected to EPSG:32632 and measured settlement area, nearest-road distance, and 2 km facility reach. See the [Week 11 README](month-03/week-11/README.md).
